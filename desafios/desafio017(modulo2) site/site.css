@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:"idroid" ;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+:root{
+    --cor0: #84e1ad;
+    --cor1: #059700;
+    --cor2: rgba(40, 109, 0, 0.61);
+    --cor3: #71ad6f65;
+    --cor4:#185031;
+    --cor5: hwb(0 100% 0%);
+
+    --font1: 'Arial','Helvetica', 'sans-serif';
+    --fonte-special: 'idroid', 'cursiva';
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+body{
+    background-color: var(--cor0);
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 15px;
+    margin-bottom: 10px;
+    line-height: 2em;
+}
+strong{
+    color: var(--cor1);
+}
+ a{
+    color:var(--cor1);
+    text-decoration: none;
+    font-weight: bolder;
+}
+header > a:hover{
+    background-color: var(--cor3);
+}
+header > h1{
+    font-family: var(--font1);
+    text-align: center;
+    padding: 5px;
+}
+header{ 
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.295);
+    background-image: linear-gradient(to top, var(--cor4) ,var(--cor0));
+    color: hwb(0 100% 0%);
+    margin: 0px;
+    height: 180px;
+}
+header > p{
+    font: 1em sans-serif;
+    text-align: center;
+    margin: 32px auto;
+    max-width: 400px;
+}
+
+    nav#menu a{
+         color: var(--cor5);
+         margin: 10px;
+        padding: 10px;
+        transition-duration: 0.3s;
+}
+    nav#menu a:hover{
+         background-color: var(--cor4);
+         color: var(--cor3);
+
+         
+}
+    main{
+        display:block;
+        background-color: var(--cor5);
+        max-width: 700px;
+        width: 100%;
+        margin: auto;
+        padding: 0 10px;
+        box-sizing: border-box;
+}
+    h1#t1{
+        font-family: f, var(--font1);
+        color: var(--cor1);
+        font-size: 27px;
+}
+h2{
+    font-family: var(--fonte-special), var(--font1);
+    color: var(--cor1);
+    background-color: var(--cor3);
+    margin: 10px 0 10px 0;
+    margin-left: -10px; 
+    padding-left: 10px;
+    display: block;
+    width: calc(100% + 20px);
+}
+main > p{
+    text-align: justify;
+    text-indent: 15px;
+    margin-bottom: 10px;
+}
+    picture#dan{
+        padding: auto;
+        height: 90px;
+        width: 90px;
+        max-width: 100%;
+        margin: auto;
+}
+    
+    picture img{
+        max-width: 100%;
+}
+    div#b1{
+        margin: auto;
+        text-align: center;
+}
+ iframe#b2{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin-bottom: 10px;
+ }
+ aside{
+    padding: 5px;
+ }
+ aside > div >  h2{
+    font-size: 20px;
+    text-indent: 20px;
+    padding: 5px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 20px;
+   
+}
+ main ul {
+    column-count: 2;
+    column-gap: 20px;
+}
+ul{
+    font-size:16px;
+    margin: auto;
+}
+    ul#b3{
+        margin-left: 20px;
+     
+}
+        .b4{
+            margin-left: 20px;
+    
+}
+    div#t2{
+        background-color: var(--cor0);
+        border-radius:0px 0px 10px 10px;
+    
+}
+            .p1{
+                margin-left: 5px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                margin-right: 5px;
+                text-indent: 15px;
+                text-align: justify;
+                font-family: var(--font1);
+                font-size: 14px;
+                padding-bottom: 5px;    
+}
+            .p2{
+                margin-left: 5px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                margin-right: 5px;
+                text-indent: 15px;
+                text-align: justify;
+                font-family: var(--font1);
+                font-size: 14px;
+                padding-bottom: 15px;  
+}
+            .fp {
+                background-color: var(--cor5);
+                padding: 10px;
+                max-width: 700px;
+                width: 100%;
+                margin: auto;
+                box-sizing: border-box;
+}
+footer{
+    color: var(--cor5);
+    background-color: var(--cor2);
+    text-align: center;
+}
+
+    

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'less';
+    src: url(fonts/Les\ Flos\ Chaos.otf) format(opentype);
+}
+
+body {
+    background-color: #6B5E42
+}
+div{
+    display: flex;
+    justify-content: right;
+}
+#T1 {
+    color: rgb(200, 255, 0);
+    text-align: center;
+    font-size: 3em;
+    font-family:'less' ;
+    background-color: #33312B
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(165, 197, 22);
+    background-color: rgba(37, 38, 39, 0.87)
+}
+h2 {
+    color: rgb(75, 70, 70);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;   
+}
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.basico{
+    background-color: #33312b96;
+    color: #EAA71B;
+    font-size: 22px;
+}
+.intermediario{
+    background-color: #33312b96;
+    color: #C09537;
+    font-size: 20px;
+}
+.avancado{
+    background-color: #33312b96;;
+    color: #967C44;
+    font-size: 18px;
+}
+.imagem
